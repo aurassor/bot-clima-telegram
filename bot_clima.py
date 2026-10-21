@@ -86,7 +86,7 @@ def gerar_imagem(dados_clima):
     
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.reply_to(message, "Olá! Eu sou o bot de clima.\nDigite \\clima e em seguida o nome de uma cidade para saber o clima atual.")
+    bot.reply_to(message, "Olá! Eu sou o bot de clima.\nDigite /clima e em seguida o nome de uma cidade para saber o clima atual.")
 
 
 @bot.message_handler(commands=['clima'])
