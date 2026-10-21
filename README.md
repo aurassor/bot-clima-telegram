@@ -8,5 +8,7 @@ Para usar este bot, você precisará de suas próprias chaves de API do Telegram
    `pip install -r requirements.txt`
 3. Renomeie o arquivo `.env.example` para `.env`.
 4. Abra o arquivo `.env` recém-renomeado e substitua os textos falsos pelas suas próprias chaves de acesso.
-5. Execute o arquivo principal:
+   * Chave de acesso do telegram obtida através do bot @botfather;
+   * Chave de acesso do OpenTheWheater obtida através do site https://openweathermap.org/
+6. Execute o arquivo principal:
    `python bot_clima.py`
